@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "react-native start --reset-cache",
+    "android": "react-native run-android",
+    "android-linux": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
+    "android-build": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3",
+    "react": "16.8.6",
+    "react-native": "^0.55.3"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}

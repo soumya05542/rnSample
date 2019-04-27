@@ -1,0 +1,6 @@
+{
+    "version": "4.9.0",
+    "roots": [
+        "/opt/projects/workspace-rn-poc/RnSampleApp"
+    ]
+}
